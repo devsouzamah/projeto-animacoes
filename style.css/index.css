@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(155, 215, 243);
+         
+}
+
+h1, h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(168, 32, 161);
+    text-align: center;
+    font-size: 35px; 
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    padding-left: 450px; 
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation: pulso 1s infinite alternate;  
+}
+
+@keyframes pulso{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+
